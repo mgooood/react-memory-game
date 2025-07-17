@@ -1,12 +1,66 @@
-# React + Vite
+# Memory Game in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun memory card matching game built with React and Vite. This project was coded by me as part of a training course through Coursera in partnership with Scrimba. The game fetches emoji data from the EmojiHub API and allows players to match pairs of cards with the same emoji.
 
-Currently, two official plugins are available:
+## 🎮 Play the Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can play the game online at: [Memory Game on GitHub Pages](https://mgooood.github.io/react-memory-game/)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Select from different emoji categories
+- Choose the number of cards to play with
+- Responsive design for mobile and desktop
+- Accessibility features for assistive technology
+
+## 🚀 Local Setup
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mgooood/react-memory-game.git
+   cd react-memory-game
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to:
+   ```
+   http://localhost:5173
+   ```
+
+### Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the app for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## 🛠️ Technologies Used
+
+- React 19
+- Vite
+- EmojiHub API
+- React Confetti (for celebration effects)
+- GitHub Actions (for automated deployment to GitHub Pages)
+
+## 📝 How to Play
+
+1. Select an emoji category and the number of cards
+2. Click on cards to flip them
+3. Try to match pairs of identical emojis
+4. The game ends when all pairs are matched
