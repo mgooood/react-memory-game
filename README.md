@@ -4,7 +4,7 @@ A fun memory card matching game built with React and Vite. This project was code
 
 ## 🎮 Play the Game
 
-You can play the game online at: [Memory Game on GitHub Pages](https://mgooood.github.io/react-memory-game/)
+You can play the game online at: <a href="https://mgooood.github.io/react-memory-game/" target="_blank">Memory Game on GitHub Pages</a>
 
 ## ✨ Features
 
